@@ -1,8 +1,26 @@
-# Planning app using a CPAL LLM chain
+# Causal Program-aided Language: Project Plan as Code using a LLM
 
 The CPAL chain is my proposed code contribution to the Langchain open-source library.
 
 Here is am trying to demonstrate a CPAL chain approach to build project planning applications. 
+
+## What is a LLM chain? 
+
+A chain within the Langchain library is a type of composable application interface to a LLM. 
+As an analogy, just as SaaS required building composable interfaces to cloud
+databases, the new wave of Inference as a Service (IaaS) requires building
+composable application interfaces to cloud LLMs. In a sense, Langchain chains are like
+views in Django/Flask/FastAPI.
+
+## What is a CPAL chain?
+
+A CPAL chain allows a user to ask hypothetical questions about a causal
+narrative. Without the CPAL chain's interface the LLM would still be able to
+answer such hypothetical questions but it would hallucinate more frequently than
+otherwise because its answers are not constrained by a causal
+structure.
+
+The difference between CPAL and PAL is in the last section below.
 
 ## Project planing app usage
 
@@ -51,21 +69,6 @@ library.
 
 In summary, a code representation makes a project plan composable and testable. 
 
-## What is a LLM chain? 
-
-A chain within the Langchain library is a type of composable application interface to a LLM. 
-As an analogy, just as SaaS required building composable interfaces to cloud
-databases, the new wave of Inference as a Service (IaaS) requires building
-composable application interfaces to cloud LLMs. In a sense, Langchain chains are like
-views in Django/Flask/FastAPI.
-
-## What is a CPAL chain?
-
-A CPAL chain allows a user to ask hypothetical questions about a causal
-narrative. Without the CPAL chain's interface the LLM would still be able to
-answer such hypothetical questions but it would hallucinate more frequently than
-otherwise because its answers are not constrained by a causal
-structure.
 
 
 ## CPAL versus PAL?
