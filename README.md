@@ -1,4 +1,4 @@
-# LLM CPAL chain to define a work-breakdown-structure
+# LLM CPAL chain & Project Planning as Code Demo App
 
 The CPAL chain is my code contribution to Langchain.
 
