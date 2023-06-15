@@ -4,7 +4,7 @@ The CPAL chain is my proposed code contribution to the Langchain open-source lib
 
 Here is am trying to demonstrate a CPAL chain approach to build project planning applications. 
 
-### Project planing app usage
+## Project planing app usage
 
 The app does the following. 
 
@@ -22,7 +22,7 @@ The app does the following.
 The thesis here is that the CPAL chain allows you to represent a project plan
 both as code and as a narrative, giving you the best of both worlds.
 
-# Why Plan as Narrative?
+## Why Plan as Narrative?
 
 Narratives are the top tool to persuade others of a plan during
 consensus building. You use a narrative to defend the validity of your plan by
@@ -31,7 +31,7 @@ Narratives are the top medium for ordinary people to convey their causal mental
 model.
 
 
-# Why Plan as Code?
+## Why Plan as Code?
 
 Narratives are also problematic. The problem is LLMs and humans are prone to
 hallucination when predicting the outcomes of a narrative. At a verbal consensus
@@ -52,7 +52,7 @@ library.
 
 In summary, a code representation makes a project plan composable and testable. 
 
-# What is a LLM chain? 
+## What is a LLM chain? 
 
 A chain within the Langchain library is a type of composable application interface to a LLM. 
 As an analogy, just as SaaS required building composable interfaces to cloud
@@ -60,7 +60,7 @@ databases, the new wave of Inference as a Service (IaaS) requires building
 composable application interfaces to cloud LLMs. In a sense, Langchain chains are like
 views in Django/Flask/FastAPI.
 
-# What is a CPAL chain?
+## What is a CPAL chain?
 
 A CPAL chain allows a user to ask hypothetical questions about a causal
 narrative. Without the CPAL chain's interface the LLM would still be able to
