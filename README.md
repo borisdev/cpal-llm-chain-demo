@@ -59,7 +59,7 @@ culprit in the "tribal knowledge" problem and "highest paid person in the room"
 problem. The Amazon-6-pager narrative meeting form attacks this problem.
 Likewise, the Plan as Code concept attacks this problem. Code does not require
 tribal knowledge or social power to validate. As narrative complexity increases
-the value of a representing a plan as code goes up. Code is testable, complex
+the value of representing a plan as code goes up. Code is testable, complex
 narratives are not.
 
 Also, code is quickly composable, complex narratives are not. Composability
