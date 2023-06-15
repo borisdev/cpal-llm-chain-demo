@@ -1,4 +1,4 @@
-# LLM CPAL chain for project planning as code 
+# CPAL LLM chain demo: project planning as code 
 
 The CPAL chain is my code contribution to Langchain.
 
