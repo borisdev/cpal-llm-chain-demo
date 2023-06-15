@@ -2,16 +2,22 @@
 
 The CPAL chain is my code contribution to Langchain.
 
-Below is a conceptual overview of the CPAL chain and a small demo of how it can be
-used to build applications around the concept of "project planning as code".
-
-## What is a Langchain chain?
-
-A Langchain chain is a composable application interface to a LLM. 
+A chain within the Langchain library is a type of composable application interface to a LLM. 
 As an analogy, just as SaaS required building composable interfaces to cloud
 databases, the new wave of Inference as a Service (IaaS) requires building
 composable application interfaces to cloud LLMs. In a sense, Langchain chains are like
 views in Django/Flask/FastAPI.
+
+Below is a conceptual overview of the CPAL chain and a small demo of how it can be
+used to build applications around the concept of "project planning as code".
+
+# CPAL chain
+
+A CPAL chain allows a user to ask hypothetical questions about a causal
+narrative. Without the CPAL chain's interface the LLM would still be able to
+answer such hypothetical questions but it would hallucinate more frequently than
+otherwise because its answers are not constrained by a causal
+structure.
 
 
 ## What is the difference between CPAL and PAL?
@@ -38,12 +44,12 @@ Preliminary evaluation on simple math word problems shows that this CPAL chain
 generates less hallucination than the PAL chain because the answers to queries
 must adhere to the narrative's causal structure. 
 
-## Demo Application: Project Planning as Code
+## App Demo: Project Planning as Code
 
 A large language model can represent a causal narratives as code. This can
 disrupt how we do complex project planning.
 
-### Motivation
+### App Motivation
 
 Narratives are important. They are a tool to persuade others of a plan during
 consensus building. You use a narrative to defend the validity of your plan by
@@ -60,7 +66,7 @@ narrative meeting form attacks this problem. Likewise, this "Causal Story as
 Code" concept attacks this problem. Once again, translating a causal narrative into code
 makes it easier to evaluate the validity of a plan.
 
-### How it works
+### App usage
 
 The code in this repo runs a demo application, which does the following. 
 
@@ -70,7 +76,7 @@ The code in this repo runs a demo application, which does the following.
 - The LLM translates the question into a query. 
 - The application runs the query and generates a report on the counterfactual outcome to the hypothetical question.
 
-### Future implications
+### App's future implications
 
 For community voting and funding, composable plans can be integrated with a Dapp. 
 For stochastic simulations, a composable plan can be integrated with the DoWhy library.
