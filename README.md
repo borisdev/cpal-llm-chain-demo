@@ -1,8 +1,9 @@
-# LLM CPAL chain & Project Planning as Code Demo App
+# LLM CPAL chain for project planning as code 
 
 The CPAL chain is my code contribution to Langchain.
 
-Below is a conceptual overview and a demo application.
+Below is a conceptual overview of the CPAL chain and a small demo of how it can be
+used to build applications around the concept of "project planning as code".
 
 ## What is a Langchain chain?
 
