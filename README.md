@@ -1,4 +1,4 @@
-# Project planning app <= CPAL + LLM
+# Planning app using a CPAL LLM chain
 
 The CPAL chain is my proposed code contribution to the Langchain open-source library.
 
