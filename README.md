@@ -22,7 +22,7 @@ structure.
 
 The difference between CPAL and PAL is in the last section below.
 
-## Project planing app usage
+## How does the "Plan as Code" demo app works?
 
 The app does the following. 
 
