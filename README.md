@@ -35,38 +35,18 @@ The app does the following.
 - The application runs the query and generates a report on the counterfactual
   outcome to the hypothetical question.
 
+### Thesis
 
-## Two for one coupon
+The thesis here is that the CPAL chain allows you to represent a project plan both as code and as a narrative, giving you the best of both worlds.
 
-The thesis here is that the CPAL chain allows you to represent a project plan
-both as code and as a narrative, giving you the best of both worlds.
+### Why Plan as Narrative?
 
-## Why Plan as Narrative?
+Narratives are the top tool to persuade others of a plan during consensus building. You use a narrative to defend the validity of your plan by illustrating how a causal chain of events can lead to the desired outcome. Narratives are the top medium for ordinary people to convey their causal mental model.
 
-Narratives are the top tool to persuade others of a plan during
-consensus building. You use a narrative to defend the validity of your plan by
-illustrating how a causal chain of events can lead to the desired outcome.
-Narratives are the top medium for ordinary people to convey their causal mental
-model.
+### Why Plan as Code?
 
+Though fast, narratives are problematic as their complexity increases. The problem is LLMs and humans are prone to hallucination when predicting the outcomes of a narrative. The cost of building a consensus around the validity of a narrative outcome grows as its narrative complexity increases. This is a culprit in the “tribal knowledge” problem and "highest-paid person in the room" problem. The Amazon-6-pager narrative meeting form attacks this problem. Likewise, the Plan as Code concept attacks this problem. Code does not require tribal knowledge or social power to validate. As narrative complexity increases, the value of representing a plan as code goes up. Code is testable, complex narratives are not.
 
-## Why Plan as Code?
+Moreover, code is quickly composable, complex narratives are not. Composability means it can be integrated with other project plans and applications. For community voting and funding, composable plans can be integrated with a Dapp. For stochastic simulations, a composable plan can be integrated with the DoWhy library.
 
-Though fast, narratives are problematic as their complexity increases. The
-problem is LLMs and humans are prone to hallucination when predicting the
-outcomes of a narrative. The cost of building a consensus around the validity of
-a narrative outcome grows as its narrative complexity increases. This is a
-culprit in the "tribal knowledge" problem and "highest paid person in the room"
-problem. The Amazon-6-pager narrative meeting form attacks this problem.
-Likewise, the Plan as Code concept attacks this problem. Code does not require
-tribal knowledge or social power to validate. As narrative complexity increases
-the value of representing a plan as code goes up. Code is testable, complex
-narratives are not.
-
-Also, code is quickly composable, complex narratives are not. Composability
-means it can be integrated with other project plans and applications. For
-community voting and funding, composable plans can be integrated with a Dapp.
-For stochastic simulations, a composable plan can be integrated with the DoWhy
-library.
-
-In summary, a code representation makes a project plan composable and testable. 
+In summary, a code representation makes a project plan composable and testable.
