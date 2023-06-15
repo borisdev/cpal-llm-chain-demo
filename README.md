@@ -1,8 +1,9 @@
 # Causal Program-aided Language "Plan as Code" demo
 
-The Causal Program-aided Language (CPAL) chain is my proposed code contribution
-to the Langchain open-source library. Here is am trying to demonstrate a CPAL
-chain approach to build a project planning application. 
+The Causal Program-aided Language (CPAL) chain is [my proposed code contribution
+(PR) to the Langchain open-source
+library](https://github.com/hwchase17/langchain/pull/6255). Here is am trying to
+demonstrate a CPAL chain approach to build a project planning application. 
 
 ## What is a LLM chain? 
 
@@ -69,29 +70,3 @@ For stochastic simulations, a composable plan can be integrated with the DoWhy
 library.
 
 In summary, a code representation makes a project plan composable and testable. 
-
-
-
-## CPAL versus PAL?
-
-"PAL uses uses the LLM to read natural language problems and generate programs
-as the intermediate reasoning steps, but offloads the solution step to a runtime
-such as a Python interpreter." (Gao, 2022) [PAL: Program-aid Language
-Models](https://arxiv.org/abs/2211.10435). 
-
-PAL stands for Program-aided Langauge. CPAL stands for Causal Program-aided
-Language. The difference in name is the word Causal.
-
-Like [PAL](https://arxiv.org/abs/2211.10435), CPAL intends to reduce large
-language model (LLM) hallucination. Also like PAL, CPAL is implemented as a
-chain using the [langchain](https://python.langchain.com/en/latest/index.html)
-open source library. 
-
-The CPAL chain is different from the PAL chain because it adds a causal
-structure (or DAG) to links entity actions (or math expressions). As a
-side-note, Langchain's `graph_qa` chain also extracts entity-action-entity
-relations into a DAG, but does not connect them to math expressions. 
-
-Preliminary evaluation on simple math word problems shows that this CPAL chain
-generates less hallucination than the PAL chain because the answers to queries
-must adhere to the narrative's causal structure. 
