@@ -1,11 +1,8 @@
-# Causal Program-aided Language (CPaL)
+# CPAL LLM chain concept and a project planning demo app
 
-## What is the purpose of this repo?
-
-Here I introduce my code contribution to Langchain, the CPaL chain.
+The CPAL chain is my code contribution to Langchain.
 
 Below is a conceptual overview and a demo application.
-
 
 ## What is a Langchain chain?
 
