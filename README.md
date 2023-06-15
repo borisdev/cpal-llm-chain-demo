@@ -51,17 +51,18 @@ model.
 
 ## Why Plan as Code?
 
-Narratives are also problematic. The problem is LLMs and humans are prone to
-hallucination when predicting the outcomes of a narrative. The cost of building
-a consensus around the validity of a narrative outcome grows as its narrative
-complexity increases. This is a culprit in the "tribal knowledge" problem and
-"highest paid person in the room" problem. The Amazon-6-pager narrative meeting
-form attacks this problem. Likewise, the Plan as Code concept attacks this
-problem. Code does not require tribal knowledge or social power to validate. As
-narrative complexity increases the value of a representing a plan as code goes
-up. Code is testable, complex narratives are not.
+Though fast, narratives are problematic as their complexity increases. The
+problem is LLMs and humans are prone to hallucination when predicting the
+outcomes of a narrative. The cost of building a consensus around the validity of
+a narrative outcome grows as its narrative complexity increases. This is a
+culprit in the "tribal knowledge" problem and "highest paid person in the room"
+problem. The Amazon-6-pager narrative meeting form attacks this problem.
+Likewise, the Plan as Code concept attacks this problem. Code does not require
+tribal knowledge or social power to validate. As narrative complexity increases
+the value of a representing a plan as code goes up. Code is testable, complex
+narratives are not.
 
-Also, code is also quickly composable, complex narratives are not. Composability
+Also, code is quickly composable, complex narratives are not. Composability
 means it can be integrated with other project plans and applications. For
 community voting and funding, composable plans can be integrated with a Dapp.
 For stochastic simulations, a composable plan can be integrated with the DoWhy
