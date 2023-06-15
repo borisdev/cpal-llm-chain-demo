@@ -1,3 +1,5 @@
-# Demo on using a narrative to define a Work-breakdown-structure (WBS) as code
+# Work-breakdown-structure (WBS) as code and as narrative
 
-The Langchain's CPAL chain allows people to define and query a work-breakdown-structure (WBS) using the narrative form.
+The user defines and queries a work-breakdown-structure (WBS) using the narrative form. 
+
+To prevent hallucination when answering hypothetical questions, the CPal Chain prompts the LLM to translate the narrative into code and a casual structure (DAG).
