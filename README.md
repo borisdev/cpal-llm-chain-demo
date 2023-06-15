@@ -1,4 +1,4 @@
-# Causal Program-aided Language: Project Plan as Code using a LLM
+# Causal Program-aided Language (CPAL) "Plan as Code" demo
 
 The CPAL chain is my proposed code contribution to the Langchain open-source library.
 
