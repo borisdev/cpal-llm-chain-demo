@@ -1,4 +1,4 @@
-# Causal Program-aided Language "Plan as Code" demo
+# "Plan as Code" demo
 
 The Causal Program-aided Language (CPAL) chain is [my proposed code contribution
 (PR) to the Langchain open-source
