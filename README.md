@@ -1,9 +1,9 @@
-# "Plan as Code" demo
+# Plan as Code demo
 
-The Causal Program-aided Language (CPAL) chain is [my proposed code contribution
-(PR) to the Langchain open-source
-library](https://github.com/hwchase17/langchain/pull/6255). Here is am trying to
-demonstrate a CPAL chain approach to build a project planning application. 
+Here I demonstrate a new Causal Program-aided Language (CPAL) approach to build
+a project plan. The CPAL LLM chain is [my proposed code contribution (PR) to the Langchain
+open-source library](https://github.com/hwchase17/langchain/pull/6255). 
+
 
 ## What is a LLM chain? 
 
