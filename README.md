@@ -1,4 +1,4 @@
-# Plan as Code demo
+# Plan as Code
 
 Here I demonstrate a new Causal Program-aided Language (CPAL) approach to build
 a project plan. The CPAL LLM chain is [my proposed code contribution (PR) to the Langchain
