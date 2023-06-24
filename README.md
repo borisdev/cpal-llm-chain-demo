@@ -1,6 +1,6 @@
 # Plan as Code
 
-Here I introduce a new approach to making a plan that requires specifying a tree of dependencies using a narrative. The approach leverages the new advances in Large Language Models (LLMs) to translate a narrative into code. The approach also highlights my prompt-engineering contribution to the LangChain open-soruce libray call the [Causal Program-aided Language (CPAL) chain](https://github.com/hwchase17/langchain/pull/6255). 
+Here I introduce a new approach to making a plan. The approach leverages the new advances in Large Language Models (LLMs) to translate a narrative chain of dependencies into code. The approach also highlights my prompt-engineering contribution to the LangChain open-soruce libray call the [Causal Program-aided Language (CPAL) chain](https://github.com/hwchase17/langchain/pull/6255). 
 
 
 ## What is a LLM chain? 
