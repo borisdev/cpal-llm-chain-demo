@@ -1,4 +1,4 @@
-# Plan as Code
+# [WIP] Plan as Code
 
 Here I introduce a new approach to making a plan. The approach leverages the new advances in Large Language Models (LLMs) to translate a narrative chain of dependencies into code. The approach also highlights my prompt-engineering contribution to the LangChain open-source libray call the [Causal Program-aided Language (CPAL) LLM chain](https://github.com/hwchase17/langchain/pull/6255). 
 
@@ -19,9 +19,9 @@ answer such hypothetical questions but it would hallucinate more frequently than
 otherwise because its answers are not constrained by a causal
 structure.
 
-The difference between my new CPAL and the existing PAL chain approach is explained in my [LanChain PR here](https://github.com/hwchase17/langchain/pull/6255). 
+The difference between my new CPAL and the existing PAL chain approach is explained in my [LangChain PR here](https://github.com/hwchase17/langchain/pull/6255). 
 
-## How does this app work?
+## How does will the future application work?
 
 The app does the following. 
 
