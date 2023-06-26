@@ -49,5 +49,3 @@ otherwise because its answers are not constrained by a causal
 structure.
 
 The difference between my new CPAL and the existing PAL chain approach is explained in my [LangChain PR here](https://github.com/hwchase17/langchain/pull/6255). 
-
-
