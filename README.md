@@ -1,8 +1,14 @@
-# Narrative Dependency Planning with an LLM
+# Plan dependencies as LLM narratives
 
-## How does will the future application work?
+## TLDR
 
-The app does the following. 
+### Objective
+
+Here I introduce a new approach to making a plan. The approach leverages the new advances in Large Language Models (LLMs) to translate a narrative chain of dependencies into code. The approach also highlights my prompt-engineering contribution to the LangChain open-source libray called the [Causal Program-aided Language (CPAL) LLM chain](https://github.com/hwchase17/langchain/pull/6255). 
+
+This is a work in progress.
+
+### Application usage flow
 
 - The user writes causal narrative to define a work-breakdown-structure (WBS).
 - The LLM translates the causal narrative into code.
@@ -12,11 +18,7 @@ The app does the following.
 - The application runs the query and generates a report on the counterfactual
   outcome to the hypothetical question.
 
-## A Testable and Composable Approach  
-
-### Overview
-
-Here I introduce a new approach to making a plan. The approach leverages the new advances in Large Language Models (LLMs) to translate a narrative chain of dependencies into code. The approach also highlights my prompt-engineering contribution to the LangChain open-source libray called the [Causal Program-aided Language (CPAL) LLM chain](https://github.com/hwchase17/langchain/pull/6255). 
+## Conceptual overview
 
 ### Thesis
 
