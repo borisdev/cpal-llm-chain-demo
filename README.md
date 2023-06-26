@@ -32,7 +32,7 @@ Moreover, code is quickly composable, complex narratives are not. Composability 
 
 In summary, a code representation makes a project plan composable and testable.
 
-## Technical introduction
+## Technical introduction for the non-coder
 
 ### What is a LLM chain? 
 
