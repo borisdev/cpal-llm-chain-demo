@@ -32,13 +32,15 @@ Moreover, code is quickly composable, complex narratives are not. Composability 
 
 In summary, a code representation makes a project plan composable and testable.
 
-## What is a LLM chain? 
+## Technical introduction
+
+### What is a LLM chain? 
 
 A chain within the Langchain library is a type of composable application interface to a LLM. 
 As an analogy, just as SaaS application requires an interface to cloud databases, Inference as a Service (IaaS) requires 
 an interface to to cloud LLMs.
 
-## What is a CPAL chain?
+### What is a CPAL chain?
 
 A CPAL chain allows a user to ask hypothetical questions about a causal
 narrative. Without the CPAL chain's interface the LLM would still be able to
