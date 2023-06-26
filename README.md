@@ -1,5 +1,17 @@
 # Narrative Dependency Planning with an LLM
 
+## How does will the future application work?
+
+The app does the following. 
+
+- The user writes causal narrative to define a work-breakdown-structure (WBS).
+- The LLM translates the causal narrative into code.
+- Another user writes a hypothetical question about a proposed change to the
+  WBS.
+- The LLM translates the question into a query. 
+- The application runs the query and generates a report on the counterfactual
+  outcome to the hypothetical question.
+
 ## A Testable and Composable Approach  
 
 ### Overview
@@ -39,17 +51,5 @@ otherwise because its answers are not constrained by a causal
 structure.
 
 The difference between my new CPAL and the existing PAL chain approach is explained in my [LangChain PR here](https://github.com/hwchase17/langchain/pull/6255). 
-
-## How does will the future application work?
-
-The app does the following. 
-
-- The user writes causal narrative to define a work-breakdown-structure (WBS).
-- The LLM translates the causal narrative into code.
-- Another user writes a hypothetical question about a proposed change to the
-  WBS.
-- The LLM translates the question into a query. 
-- The application runs the query and generates a report on the counterfactual
-  outcome to the hypothetical question.
 
 
