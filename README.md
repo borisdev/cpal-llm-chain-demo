@@ -1,4 +1,4 @@
-# Dependency planning as testable and composable narratives
+# Narrative Dependency Plannimg with an LLM: A Testable and Composable Approach  
 
 Here I introduce a new approach to making a plan. The approach leverages the new advances in Large Language Models (LLMs) to translate a narrative chain of dependencies into code. The approach also highlights my prompt-engineering contribution to the LangChain open-source libray called the [Causal Program-aided Language (CPAL) LLM chain](https://github.com/hwchase17/langchain/pull/6255). 
 
