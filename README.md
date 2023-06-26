@@ -35,10 +35,8 @@ In summary, a code representation makes a project plan composable and testable.
 ## What is a LLM chain? 
 
 A chain within the Langchain library is a type of composable application interface to a LLM. 
-As an analogy, just as SaaS required building composable interfaces to cloud
-databases, the new wave of Inference as a Service (IaaS) requires building
-composable application interfaces to cloud LLMs. In a sense, Langchain chains are like
-views in Django/Flask/FastAPI.
+As an analogy, just as SaaS application requires an interface to cloud databases, Inference as a Service (IaaS) requires 
+an interface to to cloud LLMs.
 
 ## What is a CPAL chain?
 
