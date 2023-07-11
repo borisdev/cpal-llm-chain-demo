@@ -11,26 +11,8 @@ Here I introduce a new approach to making a plan. The approach leverages the new
 - Another user writes a hypothetical question about a proposed change to the
   WBS.
 - The LLM translates the question into a query. 
-- The application runs the query and generates a report on the counterfactual
-  outcome to the hypothetical question.
+- The application runs the query and generates a report on the outcomes.
 
-## Conceptual overview
-
-### Thesis
-
-The thesis here is that the Plan as Narrative, Test as Code approach allows you to represent a project plan both as code and as a narrative, giving you the best of both worlds.
-
-### Why Plan as Narrative?
-
-Narratives are the top tool to persuade others of a plan during consensus building. You use a narrative to defend the validity of your plan by illustrating how a causal chain of events can lead to the desired outcome. Narratives are the top medium for ordinary people to convey their causal mental model.
-
-### Why Test as Code?
-
-Though fast, narratives are problematic as their complexity increases. The problem is LLMs and humans are prone to hallucination when predicting the outcomes of a narrative. The cost of building a consensus around the validity of a narrative outcome grows as its narrative complexity increases. This is a culprit in the “tribal knowledge” problem and "highest-paid person in the room" problem. The Amazon-6-pager narrative meeting form attacks this problem. Likewise, the Plan as Code concept attacks this problem. Code does not require tribal knowledge or social power to validate. As narrative complexity increases, the value of representing a plan as code goes up. Code is testable, complex narratives are not.
-
-Moreover, code is quickly composable, complex narratives are not. Composability means it can be integrated with other project plans and applications. The output of one or more plans can be the input into another team's plan or another computer system. For community voting and funding, composable plans can be integrated with a Dapp. For stochastic simulations, a composable plan can be integrated with the [DoWhy library](https://github.com/py-why/dowhy).
-
-In summary, a code representation makes a project plan composable and testable.
 
 ## Technical introduction for the non-coder
 
