@@ -1,4 +1,4 @@
-# Plan as Narrative, Test as Code leveraging a LLM
+# Use an LLM to `Plan as Narrative, Test as Code`
 
 ## Objective
 
