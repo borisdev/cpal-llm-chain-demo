@@ -20,7 +20,9 @@ Here I introduce a new approach to making a plan. The approach leverages the new
 - Is there public data to make a prototype of this concept app?
 - How can we add time as a parameter for each work span, and total time as an outcome?
 - How can we add cyclic dependencies?
-- What optmization code already exists to help a planner?
+- What optimization code already exists to help a planner?
+- Geo-spatial queries and impact analysis?
+- Time and cost and ROI optimizations?
 
 ## References
 
