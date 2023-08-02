@@ -1,6 +1,6 @@
 # Plan as Narrative, Test as Code
 
-Leverage a LLM to make community planning better.
+Leverage an LLM to make community planning better.
 
 ## Objective
 
