@@ -1,4 +1,6 @@
-# Use an LLM to `Plan as Narrative, Test as Code`
+# Plan as Narrative, Test as Code
+
+Leverage a LLM to make community planning better.
 
 ## Objective
 
