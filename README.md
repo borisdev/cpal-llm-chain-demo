@@ -15,9 +15,12 @@ Here I introduce a new approach to making a plan. The approach leverages the new
 - The LLM translates User B's question into a query. 
 - The application runs the query and generates a report on the impact of User B's speculated plan change on the plan's outcomes.
 
-## Questions
+## Research questions
 
 - Is there public data to make a prototype of this concept app?
+- How can we add time as a parameter for each work span, and total time as an outcome?
+- How can we add cyclic dependencies?
+- What optmization code already exists to help a planner?
 
 ## References
 
