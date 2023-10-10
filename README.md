@@ -28,3 +28,7 @@ Here I introduce a new approach to making a plan. The approach leverages the new
 
 - Extend the my CPAL experimental work in LangChain, [LangChain PR here](https://github.com/hwchase17/langchain/pull/6255). 
 - LangChain's tweet on the CPAL is [here](https://twitter.com/LangChainAI/status/1678797225013440514?t=l0uWL3le49SaZx0mAAKh7ww&s=40)
+  
+## Cool stuff by others
+
+- 2023 [AutoScrum™: Automating Project Planning Using Large Language Model Programs](https://arxiv.org/pdf/2306.03197.pdf) 
